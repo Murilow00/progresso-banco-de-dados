@@ -6,7 +6,7 @@ CREATE TABLE jogos_indies (
     ano_lancamento INT,
     plataforma VARCHAR(40),
     descricao VARCHAR(120),
-    avaliacoes_media FLOAT
+    avaliacoes_media FLOAT,
     zerado BOOLEAN
 );
 
@@ -21,7 +21,7 @@ VALUES
 ('Slay the Spire', 'MegaCrit', 'Card game, Roguelike', 2019, 'PC, Switch, PS4, Xbox', 'Combinação de deckbuilding com roguelike, extremamente viciante.', 9.3, FALSE),
 ('Hades', 'Supergiant Games', 'Roguelike, Ação', 2020, 'PC, Switch, PS4, Xbox', 'Combate rápido, história envolvente e design incrível.', 9.7, TRUE),
 ('Oxenfree', 'Night School Studio', 'Aventura', 2016, 'PC, Switch, PS4, Xbox', 'Jogo de aventura com foco em narrativa e escolhas.', 8.7, FALSE),
-('Spiritfarer', 'Thunder Lotus Games', 'Simulação, aventura', 2020, 'PC, Switch, PS4, Xbox', 'Jogo relaxante sobre cuidar de espíritos antes de seguir para o além.', 8.8, FALSE);
+('Spiritfarer', 'Thunder Lotus Games', 'Simulação, aventura', 2020, 'PC, Switch, PS4, Xbox', 'Jogo relaxante sobre cuidar de espíritos antes de seguir para o além.', 8.8, FALSE),
 ('Return of the Obra Dinn', '3909 LLC', 'Puzzle, aventura', 2018, 'PC, Switch, PS4, Xbox', 'Investigação com estilo gráfico único em preto e branco.', 9.1, TRUE),
 ('Hollow Knight: Silksong', 'Team Cherry', 'Metroidvania', 2023, 'PC, Switch', 'Sequência muito aguardada do aclamado Hollow Knight.', NULL, TRUE),
 ('Disco Elysium', 'ZA/UM', 'RPG', 2019, 'PC, PS4, Xbox, Switch', 'RPG inovador com foco em narrativa e escolhas profundas.', 9.4, TRUE),

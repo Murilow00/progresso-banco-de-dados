@@ -25,3 +25,6 @@ VALUES
 ('Billie Eilish', 'solo', 1, 'pop alternativo', 2015, 'USA', 'Bad Guy', TRUE),
 ('Paramore', 'banda', 3, 'pop punk', 2004, 'USA', 'Misery Business', TRUE),
 ('Tame Impala', 'banda', 1, 'psicodélico', 2007, 'Austrália', 'The Less I Know the Better', TRUE);
+
+
+

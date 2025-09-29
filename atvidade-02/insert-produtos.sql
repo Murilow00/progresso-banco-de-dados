@@ -8,8 +8,6 @@ CREATE TABLE produtos (
     categoria VARCHAR(30) NOT NULL,
     estoque INT DEFAULT 0
 );
-
-
 INSERT INTO produtos (nome, marca, preco, categoria, estoque)
 VALUES
     ('Base Felca', 'Oboticario', 90, 'Maquiagem', 50),
